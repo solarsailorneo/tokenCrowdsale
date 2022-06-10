@@ -12,4 +12,7 @@ An ERC20 token that has an initial allowlist and offering to the public.
 cd tokenCrowdsale
 npm install -g truffle
 truffle unbox react
+npm install --save chai-bn chai-as-promised
 ```
+2. Configure the `truffle-config.js` file to match `ganache` parameters.
+3. To test, run: `truffle test`
